@@ -1,0 +1,81 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+
+}
+
+body {
+	background: #f2f2f2;
+	overflow: auto;
+}
+
+.row {
+  color: rgba(228, 241, 254, 1);
+  font-weight: bold;
+}
+
+h1{
+	text-align: center;
+	margin: 5%;
+	font-size: 3rem;
+	text-decoration: underline;
+}
+
+ul {
+	text-align: lleft;
+	padding-left: 30%;
+	padding: 7%;
+	font-size: 2rem;
+	list-style: disc;
+}
+
+//li:hover{
+	color:red;
+	margin: 4%;
+	transition: 1.5s ease;
+	cursor: pointer;
+}
+
+.list {
+  border: 2px solid #000000;
+  display: block;
+    margin: 50px;
+    margin-left: 250px;
+    padding: 20px;
+    width: 60%;
+    border-radius:10px;
+    //background-image: url("images.jfif");
+    background-color: rgba(228, 241, 254, 1);
+    display: inline-table;
+}
+
+#list_item {
+  height:200px;
+  //overflow: scroll;
+  overflow-x: hidden;
+  //border: 2px solid #000;
+  padding: 10px;
+  padding-left: 20px;
+  border: 2px solid #000000;
+  margin-top: 10px;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("p2.jpg");
+  font-weight: bold;
+  font-size: 20px;
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
